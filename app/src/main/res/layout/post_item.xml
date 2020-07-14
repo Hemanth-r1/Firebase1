@@ -56,14 +56,17 @@
                 android:layout_height="30dp"
                 android:layout_marginStart="10dp"
                 android:layout_toEndOf="@+id/like"
-                android:src="@drawable/ic_comment" />
+                android:src="@drawable/ic_comment"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/like" />
 
             <ImageView
                 android:id="@+id/save"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_alignParentEnd="true"
-                android:src="@drawable/ic_save" />
+                android:src="@drawable/ic_save"
+                android:layout_alignParentRight="true" />
 
         </RelativeLayout>
 
@@ -84,7 +87,8 @@
             android:layout_marginStart="8dp"
             android:text="Username"
             android:textColor="@color/colorPrimaryDark"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp" />
 
         <TextView
             android:id="@+id/description"
@@ -92,7 +96,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="Description"
-            android:textColor="@color/colorPrimaryDark" />
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginLeft="8dp" />
 
         <TextView
             android:id="@+id/comments"
@@ -102,7 +107,8 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="10dp"
             android:text="view all comments"
-            android:textColor="@color/colorAccent" />
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="8dp" />
 
 
     </LinearLayout>

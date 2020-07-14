@@ -6,15 +6,12 @@ public class post {
     private String description;
     private String publisher;
 
+
     public post(String postid, String postimage, String description, String publisher) {
         this.postid = postid;
         this.postimage = postimage;
         this.description = description;
         this.publisher = publisher;
-    }
-
-    public post() {
-
     }
 
     public String getPostid() {

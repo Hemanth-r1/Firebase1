@@ -27,7 +27,8 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:src="@drawable/ic_close"
-                    android:id="@+id/close" />
+                    android:id="@+id/close"
+                    android:layout_alignParentLeft="true" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -38,7 +39,9 @@
                     android:layout_marginEnd="10dp"
                     android:layout_centerVertical="true"
                     android:layout_alignParentEnd="true"
-                    android:textColor="@color/colorPrimary"/>
+                    android:textColor="@color/colorPrimary"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp" />
 
             </RelativeLayout>
         </androidx.appcompat.widget.Toolbar>
